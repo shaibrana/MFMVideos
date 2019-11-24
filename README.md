@@ -48,14 +48,18 @@ I have applied the upload limit to 5 MBs for each file for the smooth and quick 
 
 Video Class Functions Explained:
 I don’t believe in re-inventing the wheel. Instead I prefer to use the wheel to make something more useful. That’s why I have used external libraries and also took help from different sources available over the internet specially stackoverflow. 
+
 function getSize($video)
 function getDuration($video)
+
 These two functions use the id3 library to analyze the video file and return a detailed array of information about the video. I just used size and duration of the video as required.
 
 function mergeVideosHorizontally($video1,$video2)
 function mergeVideosVertically($video1,$video2)
+
 These two functions use the FFMpeg library to merge the two videos. Both the two function are almost similar just one his for horizontal merge and other is for vertical merge.
 There is another important step in these functions that first I convert the aspect ratios of the two videos in fix size that is 680:340 and mp4 format so that when they are merged they look of same size in the video frame.
 
 function separateSoundLayer($video)
+
 This function also uses FFMpeg library to just convert the video file into an audio mp3 file and return the audio and video files both.
