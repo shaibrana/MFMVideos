@@ -33,7 +33,7 @@ if ($uploadOk == 1){
             $uploadOk = 0;
         }
         // Allow certain file formats
-        if($videoFileType != "mp4") {
+        if($videoFileType != "mp4" && $videoFileType != "3gp") {
             $message = "Sorry, only MP4 videos are allowed.";
             $uploadOk = 0;
         }

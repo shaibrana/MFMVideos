@@ -15,9 +15,9 @@ $fileName2 = filter_input(INPUT_POST, "video2", FILTER_DEFAULT);
 $type = filter_input(INPUT_POST, "type", FILTER_DEFAULT);
 
 if ($type == 'mergeHorizontally'){
-    $mergedVideo = $videoObj->mergeVideosHorizontally($fileName1, $fileName1);
+    $mergedVideo = $videoObj->mergeVideosHorizontally($fileName1, $fileName2);
 }else{
-    $mergedVideo = $videoObj->mergeVideosVertically($fileName1, $fileName1);
+    $mergedVideo = $videoObj->mergeVideosVertically($fileName1, $fileName2);
 }
 $message = "Videos merged succesffully.";
 

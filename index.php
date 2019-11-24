@@ -102,7 +102,9 @@ and open the template in the editor.
                 </div>
             </div>
         </div>    
-
+        <div class="footer mt-3">
+            <p>Developed by Shoaib Manzoor</p>
+        </div>
         <script>
             var filename;
             $(function () {

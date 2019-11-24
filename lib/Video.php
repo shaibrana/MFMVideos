@@ -18,7 +18,6 @@ class Video{
     }
     
     function getSize($video){
-        
         $ThisFileInfo = $this->getID3->analyze($video);
         return $ThisFileInfo['filesize'];
     }
