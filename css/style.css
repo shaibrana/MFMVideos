@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2019, 5:25:55 PM
+    Author     : shoaib
+*/
+
+.hidden{
+    display:none;
+}
+#size, #duration{
+    font-weight: bold;
+}
+.message{
+    height:60px;
+}
+#proccess{
+    height:60px;
+}
+.merge{
+    padding-top:30px;
+}
+.horizontalMergedVideo{
+    float:left;
+    padding-right: 20px;
+}
+.horizontalMergedVideo video, .verticalMergedVideo video{
+    height:500px;
+    width:500px;
+}
+.leftSide{
+    float:left;
+    width:50%;
+}
+.rightSide{
+    float:right;
+    width:50%;
+}
